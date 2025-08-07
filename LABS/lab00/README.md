@@ -31,11 +31,17 @@ b. Изучить текущий файл **running configuration**
 &nbsp;&nbsp;&nbsp;&nbsp; Ответ: 2 интерфейса.      
 &nbsp;&nbsp;&nbsp;&nbsp; - Каков диапазон значений, отображаемых в vty-линиях?   
 &nbsp;&nbsp;&nbsp;&nbsp; Ответ: от 0 до 16         
-c. Изучить характеристики SVI для VLAN 1   
-![Startup config](./Startup%20config.png)
+c.Изучите файл загрузочной конфигурации (startup configuration), который содержится в энергонезависимом ОЗУ (NVRAM).   
+![Startup config](./Startup%20config.png)      
+&nbsp;&nbsp;&nbsp;&nbsp; - Почему появляется это сообщение?       
+&nbsp;&nbsp;&nbsp;&nbsp; Ответ: Потому, что никто ещё не делал запись конфига.         
+d. Изучите характеристики SVI для VLAN 1.           
 &nbsp;&nbsp;&nbsp;&nbsp; - Назначен ли IP-адрес сети VLAN 1?          
 &nbsp;&nbsp;&nbsp;&nbsp; Ответ: нет, не назначен.     
 &nbsp;&nbsp;&nbsp;&nbsp; - Какой MAC-адрес имеет SVI?       
 &nbsp;&nbsp;&nbsp;&nbsp;Ответ: MAC-адрес виртуального интерфейса коммутатора (SVI) может быть разным и зависит от конкретной конфигурации.      
 &nbsp;&nbsp;&nbsp;&nbsp;В данном случае MAC адрес 0002.4aba.8703
-   ![MAC](./MAC.png)
+   ![MAC](./MAC.png)             
+&nbsp;&nbsp;&nbsp;&nbsp; - Данный интерфейс включен?        
+&nbsp;&nbsp;&nbsp;&nbsp; Ответ: Данный интрефейс выключен.      
+
