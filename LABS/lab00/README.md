@@ -32,6 +32,7 @@ b. Изучить текущий файл **running configuration**
 &nbsp;&nbsp;&nbsp;&nbsp; - Каков диапазон значений, отображаемых в vty-линиях?   
 &nbsp;&nbsp;&nbsp;&nbsp; Ответ: от 0 до 16         
 c. Изучить характеристики SVI для VLAN 1   
+![Startup config](./Startup%20config.png)
 &nbsp;&nbsp;&nbsp;&nbsp; - Назначен ли IP-адрес сети VLAN 1?          
 &nbsp;&nbsp;&nbsp;&nbsp; Ответ: нет, не назначен.     
 &nbsp;&nbsp;&nbsp;&nbsp; - Какой MAC-адрес имеет SVI?       
